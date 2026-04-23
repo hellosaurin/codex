@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Soft abstract light background">
+  <defs>
+    <linearGradient id="base" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8f3e8"/>
+      <stop offset="100%" stop-color="#d6e6f6"/>
+    </linearGradient>
+    <radialGradient id="sunA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff9de" stop-opacity="1"/>
+      <stop offset="55%" stop-color="#ffe8a8" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#ffe8a8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sunB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#fff2c9" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#fff2c9" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#base)"/>
+  <circle cx="320" cy="180" r="240" fill="url(#sunA)" filter="url(#blur)"/>
+  <circle cx="1290" cy="210" r="210" fill="url(#sunB)" filter="url(#blur)"/>
+  <circle cx="1270" cy="760" r="300" fill="url(#sunA)" opacity="0.7" filter="url(#blur)"/>
+  <path d="M0 760 C250 680 430 900 690 840 C970 780 1110 600 1600 710 L1600 1000 L0 1000 Z" fill="#ffffff" opacity="0.32"/>
+  <path d="M0 820 C300 760 420 960 760 910 C1040 870 1250 700 1600 820 L1600 1000 L0 1000 Z" fill="#fff6da" opacity="0.4"/>
+</svg>
