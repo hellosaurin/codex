@@ -7,13 +7,11 @@
   <style>
     :root {
       color-scheme: light;
-      --bg-top: #f8f3e8;
-      --bg-bottom: #d6e6f6;
-      --text: #1d2a38;
-      --accent: #cf6a3d;
-      --panel: rgba(255, 255, 255, 0.78);
-      --shadow: rgba(34, 46, 60, 0.14);
-      --line: rgba(255, 255, 255, 0.55);
+      --text: #182430;
+      --accent: #cb693f;
+      --panel: rgba(255, 255, 255, 0.8);
+      --shadow: rgba(18, 28, 38, 0.18);
+      --line: rgba(255, 255, 255, 0.62);
     }
 
     * {
@@ -31,8 +29,8 @@
       font-family: Georgia, "Times New Roman", serif;
       color: var(--text);
       background:
-        linear-gradient(160deg, rgba(248, 243, 232, 0.8), rgba(214, 230, 246, 0.8)),
-        url("./light-bg.svg") center / cover no-repeat;
+        linear-gradient(180deg, rgba(248, 244, 236, 0.2), rgba(222, 232, 243, 0.2)),
+        url("./nyc-background.png") center / cover no-repeat;
     }
 
     body::before,
@@ -52,10 +50,7 @@
 
     body::after {
       background:
-        radial-gradient(circle at top left, rgba(255, 255, 255, 0.88), transparent 32%),
-        radial-gradient(circle at bottom right, rgba(255, 236, 187, 0.52), transparent 28%),
-        linear-gradient(160deg, var(--bg-top), var(--bg-bottom));
-      mix-blend-mode: screen;
+        linear-gradient(180deg, rgba(251, 248, 242, 0.52), rgba(212, 225, 239, 0.38));
     }
 
     .hero {
